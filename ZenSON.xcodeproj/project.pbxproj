@@ -1,0 +1,1023 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		719C9B1A2FBA6BC8001BEFF4 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 719C9B192FBA6BC8001BEFF4 /* manifest.json */; };
+		719C9B1B2FBA6BC8001BEFF4 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 719C9B192FBA6BC8001BEFF4 /* manifest.json */; };
+		719C9B1C2FBA6BC8001BEFF4 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 719C9B192FBA6BC8001BEFF4 /* manifest.json */; };
+		719C9B1D2FBA6BC8001BEFF4 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 719C9B192FBA6BC8001BEFF4 /* manifest.json */; };
+		719C9B2F2FBA6FAE001BEFF4 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 719C9B2E2FBA6FAE001BEFF4 /* content.js */; };
+		719C9B302FBA6FAE001BEFF4 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 719C9B2E2FBA6FAE001BEFF4 /* content.js */; };
+		719C9B312FBA6FAE001BEFF4 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 719C9B2E2FBA6FAE001BEFF4 /* content.js */; };
+		719C9B322FBA6FAE001BEFF4 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 719C9B2E2FBA6FAE001BEFF4 /* content.js */; };
+		719C9B342FBA6FAE001BEFF4 /* renderer.js in Resources */ = {isa = PBXBuildFile; fileRef = 719C9B332FBA6FAE001BEFF4 /* renderer.js */; };
+		719C9B352FBA6FAE001BEFF4 /* renderer.js in Resources */ = {isa = PBXBuildFile; fileRef = 719C9B332FBA6FAE001BEFF4 /* renderer.js */; };
+		719C9B362FBA6FAE001BEFF4 /* renderer.js in Resources */ = {isa = PBXBuildFile; fileRef = 719C9B332FBA6FAE001BEFF4 /* renderer.js */; };
+		719C9B372FBA6FAE001BEFF4 /* renderer.js in Resources */ = {isa = PBXBuildFile; fileRef = 719C9B332FBA6FAE001BEFF4 /* renderer.js */; };
+		719C9B392FBA6FAE001BEFF4 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 719C9B382FBA6FAE001BEFF4 /* popup.html */; };
+		719C9B3B2FBA6FAE001BEFF4 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 719C9B382FBA6FAE001BEFF4 /* popup.html */; };
+		719C9B3E2FBA6FAF001BEFF4 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 719C9B3D2FBA6FAF001BEFF4 /* popup.js */; };
+		719C9B3F2FBA6FAF001BEFF4 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 719C9B3D2FBA6FAF001BEFF4 /* popup.js */; };
+		719C9B402FBA6FAF001BEFF4 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 719C9B3D2FBA6FAF001BEFF4 /* popup.js */; };
+		719C9B412FBA6FAF001BEFF4 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 719C9B3D2FBA6FAF001BEFF4 /* popup.js */; };
+		71D35FC12FBBA321009943C1 /* ZenSON.icon in Resources */ = {isa = PBXBuildFile; fileRef = 71D35FC02FBBA321009943C1 /* ZenSON.icon */; };
+		71D35FC22FBBA321009943C1 /* ZenSON.icon in Resources */ = {isa = PBXBuildFile; fileRef = 71D35FC02FBBA321009943C1 /* ZenSON.icon */; };
+		71D35FC72FBBAD30009943C1 /* ZenSON Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 71D35FC52FBBA53D009943C1 /* ZenSON Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		71D35FC92FBBADA0009943C1 /* ZenSON Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 71D35FC62FBBA53D009943C1 /* ZenSON Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		71E7798A2FBA67C800529D7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E779892FBA67C800529D7B /* AppDelegate.swift */; };
+		71E7798C2FBA67C800529D7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E7798B2FBA67C800529D7B /* SceneDelegate.swift */; };
+		71E7798F2FBA67C800529D7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71E7798D2FBA67C800529D7B /* LaunchScreen.storyboard */; };
+		71E779922FBA67C800529D7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71E779902FBA67C800529D7B /* Main.storyboard */; };
+		71E7799B2FBA67C800529D7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E7799A2FBA67C800529D7B /* AppDelegate.swift */; };
+		71E7799E2FBA67C800529D7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71E7799C2FBA67C800529D7B /* Main.storyboard */; };
+		71E779B42FBA67C800529D7B /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 71E779792FBA67C800529D7B /* Main.html */; };
+		71E779B52FBA67C800529D7B /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 71E779792FBA67C800529D7B /* Main.html */; };
+		71E779B62FBA67C800529D7B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 71E7797B2FBA67C800529D7B /* Icon.png */; };
+		71E779B72FBA67C800529D7B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 71E7797B2FBA67C800529D7B /* Icon.png */; };
+		71E779B82FBA67C800529D7B /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 71E7797C2FBA67C800529D7B /* Style.css */; };
+		71E779B92FBA67C800529D7B /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 71E7797C2FBA67C800529D7B /* Style.css */; };
+		71E779BA2FBA67C800529D7B /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 71E7797D2FBA67C800529D7B /* Script.js */; };
+		71E779BB2FBA67C800529D7B /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 71E7797D2FBA67C800529D7B /* Script.js */; };
+		71E779BC2FBA67C800529D7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E7797E2FBA67C800529D7B /* ViewController.swift */; };
+		71E779BD2FBA67C800529D7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E7797E2FBA67C800529D7B /* ViewController.swift */; };
+		71E779BE2FBA67C800529D7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71E7797F2FBA67C800529D7B /* Assets.xcassets */; };
+		71E779BF2FBA67C800529D7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71E7797F2FBA67C800529D7B /* Assets.xcassets */; };
+		71E779C02FBA67C800529D7B /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E779812FBA67C800529D7B /* SafariWebExtensionHandler.swift */; };
+		71E779C12FBA67C800529D7B /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E779812FBA67C800529D7B /* SafariWebExtensionHandler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71E779A62FBA67C800529D7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71E779732FBA67C800529D7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71E779A32FBA67C800529D7B;
+			remoteInfo = "ZenSON Extension (iOS)";
+		};
+		71E779B02FBA67C800529D7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71E779732FBA67C800529D7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71E779AD2FBA67C800529D7B;
+			remoteInfo = "ZenSON Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		71E779C72FBA67C800529D7B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				71D35FC72FBBAD30009943C1 /* ZenSON Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E779CE2FBA67C800529D7B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				71D35FC92FBBADA0009943C1 /* ZenSON Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		719C9B192FBA6BC8001BEFF4 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		719C9B2E2FBA6FAE001BEFF4 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		719C9B332FBA6FAE001BEFF4 /* renderer.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = renderer.js; sourceTree = "<group>"; };
+		719C9B382FBA6FAE001BEFF4 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		719C9B3D2FBA6FAF001BEFF4 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		71D35FC02FBBA321009943C1 /* ZenSON.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = ZenSON.icon; sourceTree = "<group>"; };
+		71D35FC32FBBA3A6009943C1 /* ZenSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZenSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71D35FC42FBBA41F009943C1 /* ZenSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZenSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71D35FC52FBBA53D009943C1 /* ZenSON Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ZenSON Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71D35FC62FBBA53D009943C1 /* ZenSON Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ZenSON Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71E7797A2FBA67C800529D7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		71E7797B2FBA67C800529D7B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		71E7797C2FBA67C800529D7B /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		71E7797D2FBA67C800529D7B /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		71E7797E2FBA67C800529D7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		71E7797F2FBA67C800529D7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71E779812FBA67C800529D7B /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		71E779892FBA67C800529D7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71E7798B2FBA67C800529D7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		71E7798E2FBA67C800529D7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71E779912FBA67C800529D7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71E779932FBA67C800529D7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71E7799A2FBA67C800529D7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71E7799D2FBA67C800529D7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71E7799F2FBA67C800529D7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71E779A92FBA67C800529D7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71E779B32FBA67C800529D7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		719C9B1E2FBA6CE5001BEFF4 /* icons */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = icons;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71E779832FBA67C800529D7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E779952FBA67C800529D7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E779A12FBA67C800529D7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E779AB2FBA67C800529D7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71E779722FBA67C800529D7B = {
+			isa = PBXGroup;
+			children = (
+				71E779772FBA67C800529D7B /* Shared (App) */,
+				71E779802FBA67C800529D7B /* Shared (Extension) */,
+				71E779882FBA67C800529D7B /* iOS (App) */,
+				71E779992FBA67C800529D7B /* macOS (App) */,
+				71E779A82FBA67C800529D7B /* iOS (Extension) */,
+				71E779B22FBA67C800529D7B /* macOS (Extension) */,
+				71D35FC02FBBA321009943C1 /* ZenSON.icon */,
+				71D35FC32FBBA3A6009943C1 /* ZenSON.app */,
+				71D35FC42FBBA41F009943C1 /* ZenSON.app */,
+				71D35FC52FBBA53D009943C1 /* ZenSON Extension.appex */,
+				71D35FC62FBBA53D009943C1 /* ZenSON Extension.appex */,
+			);
+			sourceTree = "<group>";
+		};
+		71E779772FBA67C800529D7B /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				71E7797E2FBA67C800529D7B /* ViewController.swift */,
+				71E7797F2FBA67C800529D7B /* Assets.xcassets */,
+				71E779782FBA67C800529D7B /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		71E779782FBA67C800529D7B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				71E779792FBA67C800529D7B /* Main.html */,
+				71E7797B2FBA67C800529D7B /* Icon.png */,
+				71E7797C2FBA67C800529D7B /* Style.css */,
+				71E7797D2FBA67C800529D7B /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		71E779802FBA67C800529D7B /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				719C9B1E2FBA6CE5001BEFF4 /* icons */,
+				719C9B192FBA6BC8001BEFF4 /* manifest.json */,
+				71E779812FBA67C800529D7B /* SafariWebExtensionHandler.swift */,
+				719C9B2E2FBA6FAE001BEFF4 /* content.js */,
+				719C9B332FBA6FAE001BEFF4 /* renderer.js */,
+				719C9B382FBA6FAE001BEFF4 /* popup.html */,
+				719C9B3D2FBA6FAF001BEFF4 /* popup.js */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		71E779882FBA67C800529D7B /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				71E779892FBA67C800529D7B /* AppDelegate.swift */,
+				71E7798B2FBA67C800529D7B /* SceneDelegate.swift */,
+				71E7798D2FBA67C800529D7B /* LaunchScreen.storyboard */,
+				71E779902FBA67C800529D7B /* Main.storyboard */,
+				71E779932FBA67C800529D7B /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		71E779992FBA67C800529D7B /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				71E7799A2FBA67C800529D7B /* AppDelegate.swift */,
+				71E7799C2FBA67C800529D7B /* Main.storyboard */,
+				71E7799F2FBA67C800529D7B /* Info.plist */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		71E779A82FBA67C800529D7B /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				71E779A92FBA67C800529D7B /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		71E779B22FBA67C800529D7B /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				71E779B32FBA67C800529D7B /* Info.plist */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71E779852FBA67C800529D7B /* ZenSON (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71E779C82FBA67C800529D7B /* Build configuration list for PBXNativeTarget "ZenSON (iOS)" */;
+			buildPhases = (
+				71E779822FBA67C800529D7B /* Sources */,
+				71E779832FBA67C800529D7B /* Frameworks */,
+				71E779842FBA67C800529D7B /* Resources */,
+				71E779C72FBA67C800529D7B /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71E779A72FBA67C800529D7B /* PBXTargetDependency */,
+			);
+			name = "ZenSON (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "ZenSON (iOS)";
+			productReference = 71D35FC32FBBA3A6009943C1 /* ZenSON.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71E779972FBA67C800529D7B /* ZenSON (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71E779CF2FBA67C800529D7B /* Build configuration list for PBXNativeTarget "ZenSON (macOS)" */;
+			buildPhases = (
+				71E779942FBA67C800529D7B /* Sources */,
+				71E779952FBA67C800529D7B /* Frameworks */,
+				71E779962FBA67C800529D7B /* Resources */,
+				71E779CE2FBA67C800529D7B /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71E779B12FBA67C800529D7B /* PBXTargetDependency */,
+			);
+			name = "ZenSON (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "ZenSON (macOS)";
+			productReference = 71D35FC42FBBA41F009943C1 /* ZenSON.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71E779A32FBA67C800529D7B /* ZenSON Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71E779C42FBA67C800529D7B /* Build configuration list for PBXNativeTarget "ZenSON Extension (iOS)" */;
+			buildPhases = (
+				71E779A02FBA67C800529D7B /* Sources */,
+				71E779A12FBA67C800529D7B /* Frameworks */,
+				71E779A22FBA67C800529D7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				719C9B1E2FBA6CE5001BEFF4 /* icons */,
+			);
+			name = "ZenSON Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "ZenSON Extension (iOS)";
+			productReference = 71D35FC52FBBA53D009943C1 /* ZenSON Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		71E779AD2FBA67C800529D7B /* ZenSON Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71E779CB2FBA67C800529D7B /* Build configuration list for PBXNativeTarget "ZenSON Extension (macOS)" */;
+			buildPhases = (
+				71E779AA2FBA67C800529D7B /* Sources */,
+				71E779AB2FBA67C800529D7B /* Frameworks */,
+				71E779AC2FBA67C800529D7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				719C9B1E2FBA6CE5001BEFF4 /* icons */,
+			);
+			name = "ZenSON Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "ZenSON Extension (macOS)";
+			productReference = 71D35FC62FBBA53D009943C1 /* ZenSON Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71E779732FBA67C800529D7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2650;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					71E779852FBA67C800529D7B = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					71E779972FBA67C800529D7B = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					71E779A32FBA67C800529D7B = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					71E779AD2FBA67C800529D7B = {
+						CreatedOnToolsVersion = 26.5;
+					};
+				};
+			};
+			buildConfigurationList = 71E779762FBA67C800529D7B /* Build configuration list for PBXProject "ZenSON" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71E779722FBA67C800529D7B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 71E779722FBA67C800529D7B;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71E779852FBA67C800529D7B /* ZenSON (iOS) */,
+				71E779972FBA67C800529D7B /* ZenSON (macOS) */,
+				71E779A32FBA67C800529D7B /* ZenSON Extension (iOS) */,
+				71E779AD2FBA67C800529D7B /* ZenSON Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71E779842FBA67C800529D7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719C9B312FBA6FAE001BEFF4 /* content.js in Resources */,
+				719C9B362FBA6FAE001BEFF4 /* renderer.js in Resources */,
+				71E779B62FBA67C800529D7B /* Icon.png in Resources */,
+				71E7798F2FBA67C800529D7B /* LaunchScreen.storyboard in Resources */,
+				71E779B42FBA67C800529D7B /* Main.html in Resources */,
+				719C9B1D2FBA6BC8001BEFF4 /* manifest.json in Resources */,
+				719C9B3F2FBA6FAF001BEFF4 /* popup.js in Resources */,
+				71E779BA2FBA67C800529D7B /* Script.js in Resources */,
+				71E779BE2FBA67C800529D7B /* Assets.xcassets in Resources */,
+				71E779922FBA67C800529D7B /* Main.storyboard in Resources */,
+				71E779B82FBA67C800529D7B /* Style.css in Resources */,
+				71D35FC22FBBA321009943C1 /* ZenSON.icon in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E779962FBA67C800529D7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E779B72FBA67C800529D7B /* Icon.png in Resources */,
+				719C9B302FBA6FAE001BEFF4 /* content.js in Resources */,
+				71D35FC12FBBA321009943C1 /* ZenSON.icon in Resources */,
+				71E779B92FBA67C800529D7B /* Style.css in Resources */,
+				71E7799E2FBA67C800529D7B /* Main.storyboard in Resources */,
+				719C9B1C2FBA6BC8001BEFF4 /* manifest.json in Resources */,
+				719C9B372FBA6FAE001BEFF4 /* renderer.js in Resources */,
+				71E779BB2FBA67C800529D7B /* Script.js in Resources */,
+				719C9B402FBA6FAF001BEFF4 /* popup.js in Resources */,
+				71E779BF2FBA67C800529D7B /* Assets.xcassets in Resources */,
+				71E779B52FBA67C800529D7B /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E779A22FBA67C800529D7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719C9B392FBA6FAE001BEFF4 /* popup.html in Resources */,
+				719C9B1B2FBA6BC8001BEFF4 /* manifest.json in Resources */,
+				719C9B322FBA6FAE001BEFF4 /* content.js in Resources */,
+				719C9B342FBA6FAE001BEFF4 /* renderer.js in Resources */,
+				719C9B3E2FBA6FAF001BEFF4 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E779AC2FBA67C800529D7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719C9B3B2FBA6FAE001BEFF4 /* popup.html in Resources */,
+				719C9B1A2FBA6BC8001BEFF4 /* manifest.json in Resources */,
+				719C9B2F2FBA6FAE001BEFF4 /* content.js in Resources */,
+				719C9B352FBA6FAE001BEFF4 /* renderer.js in Resources */,
+				719C9B412FBA6FAF001BEFF4 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71E779822FBA67C800529D7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E779BC2FBA67C800529D7B /* ViewController.swift in Sources */,
+				71E7798A2FBA67C800529D7B /* AppDelegate.swift in Sources */,
+				71E7798C2FBA67C800529D7B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E779942FBA67C800529D7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E779BD2FBA67C800529D7B /* ViewController.swift in Sources */,
+				71E7799B2FBA67C800529D7B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E779A02FBA67C800529D7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E779C02FBA67C800529D7B /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E779AA2FBA67C800529D7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E779C12FBA67C800529D7B /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71E779A72FBA67C800529D7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71E779A32FBA67C800529D7B /* ZenSON Extension (iOS) */;
+			targetProxy = 71E779A62FBA67C800529D7B /* PBXContainerItemProxy */;
+		};
+		71E779B12FBA67C800529D7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71E779AD2FBA67C800529D7B /* ZenSON Extension (macOS) */;
+			targetProxy = 71E779B02FBA67C800529D7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71E779792FBA67C800529D7B /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71E7797A2FBA67C800529D7B /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		71E7798D2FBA67C800529D7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71E7798E2FBA67C800529D7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		71E779902FBA67C800529D7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71E779912FBA67C800529D7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71E7799C2FBA67C800529D7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71E7799D2FBA67C800529D7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71E779C22FBA67C800529D7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71E779C32FBA67C800529D7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		71E779C52FBA67C800529D7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92S6B7465H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ZenSON Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.novachkov.ZenSON-Safari-Extension.Extension";
+				PRODUCT_NAME = "ZenSON Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71E779C62FBA67C800529D7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92S6B7465H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ZenSON Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.novachkov.ZenSON-Safari-Extension.Extension";
+				PRODUCT_NAME = "ZenSON Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71E779C92FBA67C800529D7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = ZenSON;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92S6B7465H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = ZenSON;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.novachkov.ZenSON-Safari-Extension";
+				PRODUCT_NAME = ZenSON;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71E779CA2FBA67C800529D7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = ZenSON;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92S6B7465H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = ZenSON;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.novachkov.ZenSON-Safari-Extension";
+				PRODUCT_NAME = ZenSON;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71E779CC2FBA67C800529D7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92S6B7465H;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ZenSON Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.novachkov.ZenSON-Safari-Extension.Extension";
+				PRODUCT_NAME = "ZenSON Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		71E779CD2FBA67C800529D7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92S6B7465H;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ZenSON Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.novachkov.ZenSON-Safari-Extension.Extension";
+				PRODUCT_NAME = "ZenSON Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		71E779D02FBA67C800529D7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = ZenSON;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92S6B7465H;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = ZenSON;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.novachkov.ZenSON-Safari-Extension";
+				PRODUCT_NAME = ZenSON;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		71E779D12FBA67C800529D7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = ZenSON;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92S6B7465H;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = ZenSON;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.novachkov.ZenSON-Safari-Extension";
+				PRODUCT_NAME = ZenSON;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71E779762FBA67C800529D7B /* Build configuration list for PBXProject "ZenSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71E779C22FBA67C800529D7B /* Debug */,
+				71E779C32FBA67C800529D7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71E779C42FBA67C800529D7B /* Build configuration list for PBXNativeTarget "ZenSON Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71E779C52FBA67C800529D7B /* Debug */,
+				71E779C62FBA67C800529D7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71E779C82FBA67C800529D7B /* Build configuration list for PBXNativeTarget "ZenSON (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71E779C92FBA67C800529D7B /* Debug */,
+				71E779CA2FBA67C800529D7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71E779CB2FBA67C800529D7B /* Build configuration list for PBXNativeTarget "ZenSON Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71E779CC2FBA67C800529D7B /* Debug */,
+				71E779CD2FBA67C800529D7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71E779CF2FBA67C800529D7B /* Build configuration list for PBXNativeTarget "ZenSON (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71E779D02FBA67C800529D7B /* Debug */,
+				71E779D12FBA67C800529D7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71E779732FBA67C800529D7B /* Project object */;
+}

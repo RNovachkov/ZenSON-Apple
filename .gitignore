@@ -1,0 +1,62 @@
+# Xcode
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Xcode build output
+build/
+*.o
+*.d
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+Package.resolved
+
+# CocoaPods
+Pods/
+*.xcworkspace
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.DocumentRevisions-V100
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Xcode Schemes (keep shared schemes, ignore personal ones)
+!*.xcscheme
+
+# Instruments
+*.trace
+
+# Code signing
+*.mobileprovision
+*.provisionprofile
+
+# Dependency managers
+.mise.toml
+.tool-versions
+
+# IDE
+.vscode/
+*.swp
+*.swo
+*~
