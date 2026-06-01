@@ -160,15 +160,28 @@
       body{background:#0f1117;color:#e2e8f0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;-webkit-text-size-adjust:100%}
       #jp-toolbar{
         position:fixed;top:0;left:0;right:0;z-index:9999;
-        display:flex;align-items:center;gap:12px;
-        padding:10px 18px;background:#0d1018;border-bottom:1px solid #1e2535;
+        display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+        padding:8px 14px;background:#0d1018;border-bottom:1px solid #1e2535;
         font-size:13px;
       }
-      #jp-title{font-weight:600;color:#f1f5f9;font-size:14px}
-      #jp-stats{color:#475569;font-size:12px}
-      #jp-hint{color:#3d5a3e;font-style:italic;font-size:11px}
-      #jp-copy-btn{margin-left:auto;background:linear-gradient(135deg,#6366f1,#8b5cf6);color:#fff;border:none;border-radius:6px;padding:5px 14px;font-size:12px;font-weight:600;cursor:pointer}
+      #jp-brand{display:flex;align-items:center;gap:8px;flex-shrink:0}
+      #jp-logo{width:22px;height:22px;border-radius:6px;display:block;flex-shrink:0}
+      #jp-title{font-weight:600;color:#f1f5f9;font-size:14px;letter-spacing:-.2px}
+      #jp-meta{display:flex;align-items:center;gap:6px;flex:1;min-width:0;overflow:hidden}
+      #jp-stats{color:#475569;font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+      #jp-hint{color:#3d5a3e;font-style:italic;font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0;flex-shrink:1}
+      #jp-copy-wrap{position:relative;display:flex;margin-left:auto;flex-shrink:0}
+      #jp-copy-btn{background:linear-gradient(135deg,#6366f1,#8b5cf6);color:#fff;border:none;border-right:1px solid rgba(255,255,255,.15);border-radius:6px 0 0 6px;padding:5px 13px;font-size:12px;font-weight:600;cursor:pointer}
       #jp-copy-btn:hover{opacity:.85}
+      #jp-copy-arrow{background:linear-gradient(135deg,#6366f1,#8b5cf6);color:#fff;border:none;border-radius:0 6px 6px 0;padding:5px 8px;font-size:10px;cursor:pointer;line-height:1}
+      #jp-copy-arrow:hover{opacity:.85}
+      #jp-copy-menu{display:none;position:absolute;top:calc(100% + 5px);right:0;background:#1a2035;border:1px solid #2d3748;border-radius:7px;overflow:hidden;z-index:10000;min-width:140px;box-shadow:0 4px 16px rgba(0,0,0,.5)}
+      #jp-copy-mini-btn{display:block;width:100%;background:none;border:none;color:#e2e8f0;padding:9px 14px;font-size:12px;font-family:inherit;text-align:left;cursor:pointer}
+      #jp-copy-mini-btn:hover{background:#253047}
+      @media(max-width:600px){
+        #jp-meta{flex-direction:column;align-items:flex-start;gap:1px;order:3;width:100%;padding-bottom:2px}
+        #jp-copy-wrap{order:2}
+      }
       #jp-wrap{margin-top:52px;display:flex;font-family:'Cascadia Code','Fira Code','JetBrains Mono',Menlo,monospace;font-size:13px;line-height:1.7}
       #jp-gutter{padding:24px 10px 24px 6px;text-align:right;color:#2a3a50;background:#080b11;border-right:1px solid #141c28;user-select:none;white-space:pre;flex-shrink:0;min-width:46px;font-size:12px;line-height:1.7}
       #jp-root{padding:24px 28px;flex:1}
@@ -189,13 +202,26 @@
     const {container,lineCount,dateNodes}=buildTree(parsed,document);
     const datesFound=dateNodes.length;
 
+    const logoURL=(typeof browser!=='undefined'?browser:chrome).runtime.getURL('Icon.png');
+
     const toolbar=document.createElement('div');
     toolbar.id='jp-toolbar';
     toolbar.innerHTML=`
-      <span id="jp-title">ZenSON</span>
-      <span id="jp-stats">${lineCount} lines · ${(raw.length/1024).toFixed(1)} KB${datesFound?` · ${datesFound} date${datesFound>1?'s':''} detected`:''}</span>
-      ${datesFound?'<span id="jp-hint">· click 🟡 any date to cycle all formats</span>':''}
-      <button id="jp-copy-btn">Copy JSON</button>
+      <div id="jp-brand">
+        <img id="jp-logo" src="${logoURL}" alt="ZenSON">
+        <span id="jp-title">ZenSON</span>
+      </div>
+      <div id="jp-meta">
+        <span id="jp-stats">${lineCount} lines · ${(raw.length/1024).toFixed(1)} KB${datesFound?` · ${datesFound} date${datesFound>1?'s':''} detected`:''}</span>
+        ${datesFound?'<span id="jp-hint">click 🟡 any date to cycle all formats</span>':''}
+      </div>
+      <div id="jp-copy-wrap">
+        <button id="jp-copy-btn">Copy JSON</button>
+        <button id="jp-copy-arrow" title="More copy options">▾</button>
+        <div id="jp-copy-menu">
+          <button id="jp-copy-mini-btn">Copy Minified</button>
+        </div>
+      </div>
     `;
 
     const gutter=document.createElement('div');
@@ -215,13 +241,33 @@
     document.body.appendChild(toolbar);
     document.body.appendChild(wrap);
 
-    document.getElementById('jp-copy-btn').addEventListener('click',()=>{
-      navigator.clipboard.writeText(pretty).then(()=>{
-        const btn=document.getElementById('jp-copy-btn');
-        btn.textContent='✓ Copied!';
-        setTimeout(()=>{btn.textContent='Copy JSON'},1500);
+    const copyBtn=document.getElementById('jp-copy-btn');
+    const copyArrow=document.getElementById('jp-copy-arrow');
+    const copyMenu=document.getElementById('jp-copy-menu');
+
+    function flashCopied(){
+      const t=copyBtn.textContent;
+      copyBtn.textContent='✓ Copied!';
+      setTimeout(()=>{copyBtn.textContent=t},1500);
+    }
+
+    copyBtn.addEventListener('click',()=>{
+      navigator.clipboard.writeText(pretty).then(flashCopied);
+    });
+
+    copyArrow.addEventListener('click',e=>{
+      e.stopPropagation();
+      copyMenu.style.display=copyMenu.style.display==='block'?'none':'block';
+    });
+
+    document.getElementById('jp-copy-mini-btn').addEventListener('click',()=>{
+      navigator.clipboard.writeText(JSON.stringify(parsed)).then(()=>{
+        copyMenu.style.display='none';
+        flashCopied();
       });
     });
+
+    document.addEventListener('click',()=>{copyMenu.style.display='none'});
   }
 
   if(document.readyState==='loading'){

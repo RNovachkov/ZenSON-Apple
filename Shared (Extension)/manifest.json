@@ -26,7 +26,7 @@
   ],
   "web_accessible_resources": [
     {
-      "resources": ["renderer.js"],
+      "resources": ["renderer.js", "Icon.png"],
       "matches": ["<all_urls>"]
     }
   ]
